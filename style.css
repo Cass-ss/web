@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#fondo {
+    background-image: url(images/blue-sky-half-moon-crescent-moon-clouds-star-trails-5k-3840x2160-8404.png);
+    background-size: cover;
+}
+
+.menu-conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    min-height: 80px;
+    background: -webkit-linear-gradient(90deg, #00ffff,#ff61b3);background: linear-gradient(90deg, #00ffff,#ff61b3);
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 25px;
+    color: #ffffff;
+    text-transform: uppercase ;
+    font-weight: bold;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #dedede;
+    display: block;
+    font-weight: bold;
+}
+
+.menu .navbar ul li a:hover {
+    color: #ffffff;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none; 
+}
+
+h1 {
+    margin: 80px 0 0 0px;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+@media(max-width:991px) {
+    .content {
+        min-height: 70px;
+    }
+
+    .menu {
+        top: 0;
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: -webkit-linear-gradient(90deg, #00ffff,#ff61b3);background: linear-gradient(90deg, #00ffff,#ff61b3);
+
+        
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+}
+
+
+/*Abajo es de concepto*/
+
+
+.n1 {
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.entrada {
+    text-align:justify;
+    font-size: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.parrafo1 {
+    font-size: 20px;
+    text-align: justify;
+}
+
+section article h2, section article p {
+    margin: 1rem;
+}
+
+
+a:hover {
+    color:#fff
+}
+
+a:active {
+    color: yellow;
+}
+
+footer {
+    background: -webkit-linear-gradient(90deg, #9f6cd3,#5ca1cb,#2bc7c4);background: linear-gradient(90deg, #9f6cd3,#5ca1cb,#2bc7c4);
+    color: white;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+/*Esto es de Tipos*/
+
+
